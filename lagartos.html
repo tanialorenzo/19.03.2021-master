@@ -14,7 +14,7 @@
 header{
     /* border: 1px solid rgb(145, 255, 0); */
     width: 100%;
-    height: 130px;
+    height: 80px;
     position: fixed;
     top: 0px;
     background-color: rgba(2, 194, 85, 0.281);
@@ -23,7 +23,7 @@ header{
     /* border: 1px solid rgb(0, 204, 255); */
     display: inline-block;
     height: 100%;
-    width: 15%;
+    width: 10%;
 }
 #logo img{
     width: 100%;
@@ -57,70 +57,92 @@ section{
     background-position: center;
 }
 .contenedor{
-    border: 1px solid rgba(98, 0, 255, 0.87);
+    border: 1px solid rgba(255, 0, 0, 0);
     width: 100%;
     height: 680px;
 }
-.cajarriba{
-    border: 1px solid red;
-    width: 99%;
-    height: 670px;
-}
 .fila1{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
     height: 250px;
     margin-top: 128px;
     padding-left: 90px;
-    background-color: rgba(47, 248, 47, 0.308);
+    background-color: rgba(47, 248, 47, 0.219);
 }
 .fila2{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
     height: 260px;
     padding-top: 20px;
     padding-left: 90px;
-    background-color:rgba(47, 248, 47, 0.308) ;
+    background-color:rgba(47, 248, 47, 0.219) ;
+}
+.fotos{
+        border: 2px solid black;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+        margin-right: 50px;
+        width: 300px;
+        height: 225px;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 20px;
+}
+.fotos img{
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
 }
 </style>
-<body>
-    <header>
-        <div id="logo">
-            <a href="serpientes.html"><img src="img/logo2.png" alt=""></a> 
-        </div>
-        <div id="navegador">
-            <nav>
-            <a href="index.html">Inicio</a>
-            <a href="index.html #seccion2">Reptiles</a>
-            <a href="seccion3">Bichos</a>
-            <a href="#seccion4">Contáctanos</a>
-            </nav>
-        </div>
-    </header>
-    <div id="seccion1">
-        <div class="contenedor">
-            <div class="cajarriba">
-                <div class="fila1">
-                    <div class="fotos">
-
-                    </div>
-                    <div class="fotos">
-
-                    </div>
-                    <div class="fotos">
-
-                    </div>
-                </div>
-            </div>
-            <div class="cajabajo">
-                <div class="fila2">
-                    <div class="fotos"></div>
-                    <div class="fotos"></div>
-                    <div class="fotos"></div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 </body>
+<header>
+    <div id="logo">
+        <a href="serpientes.html"><img src="img/logo2.png" alt=""></a> 
+    </div>
+    <div id="navegador">
+        <nav>
+        <a href="index.html">Inicio</a>
+        <a href="index.html #seccion2">Reptiles</a>
+        <a href="seccion3">Bichos</a>
+        <a href="#seccion4">Contáctanos</a>
+        </nav>
+    </div>
+</header>
+<section id="seccion1">
+<div class="contenedor">
+    <div class="fila1">
+        <div class="fotos">
+           <a href="https://es.wikipedia.org/wiki/Iguana_(g%C3%A9nero)"><img src="img/iguana.jpg" alt=""></a> 
+            <b>Iguana</b>
+        </div>
+        <div class="fotos">
+           <a href="https://es.wikipedia.org/wiki/Cerastes_cerastes"><img src="img/abronia.jpg" alt=""></a> 
+            <b>Abronia</b>
+        </div>
+        <div class="fotos">
+           <a href="https://es.wikipedia.org/wiki/Chamaeleonidae"><img src="img/camaleon.jpg" alt=""></a> 
+            <b>Camaleón</b>
+        </div>
+    </div>
+    <div class="fila2">
+        <div class="fotos">
+           <a href="https://es.wikipedia.org/wiki/Paleosuchus_palpebrosus"><img src="img/caimanenano.jpg" alt=""></a> 
+            <b>Caimán enano</b>
+        </div>
+        <div class="fotos">
+           <a href="https://es.wikipedia.org/wiki/Dracaena_guianensis"><img src="img/dracaena.jpg" alt=""></a> 
+             <b>Dracaena</b>
+        </div>
+        <div class="fotos">
+           <a href="https://es.wikipedia.org/wiki/Dendroaspis_polylepis"><img src="img/hidrosaurio.jpg" alt=""></a> 
+            <b>Hidrosaurio crestado</b>
+        </div>
+    </div>
+
+</div>
+</section>
+
+
+
 </html>

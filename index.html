@@ -64,7 +64,7 @@ section{
     background-size: cover;
     background-position: center;
 }
-.contenedor{
+#contenedor{
     /* border: 1px solid red; */
     width: 100%;
     height: 680px;
@@ -97,11 +97,11 @@ section{
     vertical-align: top;
     width: 35%;
     height: 200px;
-    margin-top: 480px;
+    margin-top: 340px;
     margin-left: 300px;
 }
 .cajitabajo{
-/* border: 1px solid white; */
+/* border: 2px solid black; */
 display: inline-block;
 text-align: center;
 width: 300px;
@@ -119,6 +119,68 @@ border-radius: 10px;
 b{
     color: white;
 }
+.texto{
+    /* border: 1px solid blue; */
+    padding-top: 140px;
+    text-align: center;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+/* +++++ SECCIÓN   3   +++++ */
+
+#seccion3{
+    background: url(img/fondosec32.jpg);
+    padding-top: 130px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.cajar{
+    /* border: 1px solid orange; */
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.cajab{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+.cajitasar{
+    border: 2px solid black;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+.cajitasar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+.cajitab{
+    border: 2px solid black;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+.cajitab img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+.color{
+    color: black;
+    font-size: 22px;
+}
+
+
 </style>
 <body>
 
@@ -130,17 +192,21 @@ b{
         <nav>
         <a href="#seccion1">Inicio</a>
         <a href="#seccion2">Reptiles</a>
-        <a href="seccion3">Bichos</a>
+        <a href="#seccion3">Bichos</a>
         <a href="#seccion4">Contáctanos</a>
         </nav>
     </div>
 </header>
 
 <section id="seccion1">
-    
+    <div class="texto">
+        <h3>¿Te gustan los animales exóticos?</h3>
+        <br>
+        <p> Aquí te dejamos algunos ejemplares para que vayas conociendo alguna especie maravillosamente extraña.</p>
+    </div>
 </section>
 <section id="seccion2">
-    <div class="contenedor">
+    <div id="contenedor">
         <div class="cajarriba">
             <div class="cajitas">
                <a href="serpientes.html"><img src="img/greenviper.jpg" alt=""></a> 
@@ -160,13 +226,47 @@ b{
             </div>
            </div>
         </div>       
-       
+    </section>
+<section id="seccion3">
+    <div id="contenedor">
+        <div class="cajar">
+            <div class="cajitasar">
+                <img src="img/mantis.jpg" alt="">
+                <b class="color">Mantis orquídea</b>
+            </div>
+            <div class="cajitasar">
+                <img src="img/palo.jpg" alt="">
+                <b class="color">Bicho palo</b>
+            </div>
+            <div class="cajitasar">
+                <img src="img/hoja.jpg" alt="">
+                <b class="color">Bicho hoja</b>
+            </div>
+            <div class="cajab">
+                <div class="cajitab">
+                    <img src="img/lobo.jpg" alt="">
+                    <b class="color">Araña lobo</b>
+                </div>
+                <div class="cajitab">
+                    <img src="img/escolopendra.jpg" alt="">
+                    <b class="color">Escolopendra</b>
+                </div>
+                <div class="cajitab">
+                    <img src="img/escorpion.jpg" alt="">
+                    <b class="color">Escorpíon</b>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
+
+</section>
 
    
 
 
-</section>
+
 
 
 
